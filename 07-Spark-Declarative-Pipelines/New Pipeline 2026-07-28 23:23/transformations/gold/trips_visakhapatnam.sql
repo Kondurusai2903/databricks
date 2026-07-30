@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW transportation.gold.fact_trips_visakhapatnam
+CREATE OR REFRESH MATERIALIZED VIEW transportation.gold.fact_trips_visakhapatnam
 AS (
 SELECT *
 FROM transportation.gold.fact_trips
